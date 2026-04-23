@@ -23,7 +23,7 @@ class DigitalIDCard extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                // ✅ Profile Image (ONLY ONE CircleAvatar)
+               
                 const CircleAvatar(
                   radius: 60,
                   backgroundImage: AssetImage('assets/man.jfif'),
@@ -31,7 +31,7 @@ class DigitalIDCard extends StatelessWidget {
 
                 const SizedBox(height: 20),
 
-                // ✅ Name
+               
                 const Text(
                   'Md. Samsudduha Rifath',
                   style: TextStyle(
@@ -42,7 +42,7 @@ class DigitalIDCard extends StatelessWidget {
 
                 const SizedBox(height: 5),
 
-                // ✅ Info
+                
                 const Text(
                   'Batch: 63rd, CSE',
                   style: TextStyle(color: Colors.grey),
@@ -50,7 +50,7 @@ class DigitalIDCard extends StatelessWidget {
 
                 const Divider(height: 30),
 
-                // ✅ Details
+                
                 const ListTile(
                   leading: Icon(Icons.badge, color: Colors.teal),
                   title: Text('ID'),
